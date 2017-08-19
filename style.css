@@ -1,0 +1,213 @@
+*{
+  font-family: "Noto Serif", Helvetica, serif;
+  color:#fbf9d2;
+  margin: 0;
+  padding: 0; 
+  /*You can change margin and padding for entire stylesheet here and adjust it later on individually. Useful for making top and bottom bars. */
+  text-align:center;
+}
+
+body {
+  background-blend-mode: color-dodge;
+  background-image: url(/* "https://cdn.pixabay.com/photo/2015/04/25/22/06/dark-green-739780_960_720.jpg"*/);
+  background-color: rgb(43, 80, 50);
+}
+
+h1{
+  font-size: 8vw;
+  padding-bottom: 20px;
+  font-family: Pacifico, serif;
+}
+
+h3, h2{
+  font-family: "Pacifico", Serif
+}
+
+h2{
+  font-size: 7vw;
+  padding-bottom: 20px;
+  font-style: italic;
+}
+
+h3{
+  font-size:5vw;
+  padding-bottom: 20px;
+}
+
+p2{
+  font-size: 3vw;
+}
+
+.bar{
+  background-image: url("https://i.hizliresim.com/PrzVZQ.jpg");
+  background-color: rgb(96, 61, 5);
+  background-blend-mode:darken;
+  /*background-color: #9fc6a5;*/
+  overflow:auto;
+  width: 100%;
+  
+}
+
+#top_nav_bar{
+  width: 100%;
+  top:0;
+  position:fixed;
+  
+}
+
+.stitches_box{
+  left:10px;
+  right:10px;
+  border: 1px gold dashed;
+  border-radius: 40;
+  margin:20 0 px;
+  padding: 10px;
+}
+
+#top_bar{
+  display: inline-block;
+}
+
+.top_button{
+  list-style-type: none;
+  text-transform: uppercase;
+  transition: all .3s ease;
+}
+
+li a{
+  text-decoration: none;
+}
+
+li a:hover{
+  color: #583a1d;
+}
+
+.top_button{
+  padding: 0 20px;
+  border-radius: 20px;
+}
+
+.top_button:hover{
+  color: black;
+  background-color: gold;
+}
+
+li{
+  font-family: 'Open Sans', sans-serif;
+  float: left;
+  list-style-type: none;
+}
+
+.button_container{
+  float: left;
+  margin-right: 35px;
+}
+
+.Major_box{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+#portfolio{
+  border-top: solid gold;
+  border-bottom: solid gold;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
+#about_me{
+  margin-top: 100px;
+}
+
+#name {
+  margin-top:20px;
+}
+
+.description{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3vw;
+}
+
+.portfolio_object{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.circular_square{
+  border-radius:50%;
+}
+
+#profile_img{
+  margin-bottom: 20px;
+}
+
+.container{
+  margin-left:auto;
+  margin-right:auto;
+  width:60%;
+  overflow:hidden;
+}
+
+.portfolio_img, #profile_img{
+  max-width: 100%;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+#bottom_social_media_bar{
+  float:right;
+  margin-right:35px;
+  padding: 15px 0px;
+}
+
+#Created_By{
+  font-weight: 900;
+  text-align:left;
+  margin-left: 30px;
+  margin-top:20px;
+}
+
+#Created_By {
+  float:left;
+}
+
+#bottom_social_media_bar li  {
+  padding-left: 10px;
+}
+
+@media only screen and (min-width: 1024px){
+  .description{
+    font-size: 30px;
+  }
+  h3{
+    font-size:50px;
+  }
+  p2{
+    font-size:30px;
+  }
+  #profile_img{
+    max-height:600px;
+  }
+}
+
+
+#portfolio, #name{
+  padding-top: 5%;
+}
+
+@media only screen and (max-width:768px){
+  
+#portfolio, #name{
+  padding-top: 20%;
+}
+  
+}

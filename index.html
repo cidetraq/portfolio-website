@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Nicholas A. Randall's Portfolio</title>
+      <link href="style.css" type="text/css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Pacifico|Open+Sans" rel="stylesheet">
+      <meta name="viewport" content="width=device-width,initial-scale = 1.0,maximum-scale = 1.0">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+   </head>
+   <body>
+      <div class="bar" id="top_nav_bar">
+         <div class="stitches_box">
+            <ul id="top_bar">
+               <div class="button_container">
+                  <li class="top_button"><a href="#about_me">About Me</a></li>
+               </div>
+               <div class="button_container">
+                  <li class="top_button"><a href="#portfolio">Portfolio</a></li>
+               </div>
+            </ul>
+         </div>
+      </div>
+      <div class="Major_box" id="about_me">
+         <div id="name" class="header">
+            <h1>Nicholas Randall</h1>
+         </div>
+        <div class="container">
+         <a href="https://www.linkedin.com/in/nicholasrandall96/"><img class="circular_square" id="profile_img" src="https://i.hizliresim.com/aGQnPz.jpg"></a>
+        </div>
+         <div class="description">
+            <p1>Computer Science Student at Houston Community College and Musician. Learning C++, HTML, CSS, and JS. Soon to be studying Machine Learning. Piano player, music producer, science fiction writer.</p1>
+         </div>
+      </div>
+      <div class="Major_box" id="portfolio">
+         <h2 id="portfolio">Portfolio</h2>
+         <div class="portfolio_object">
+            <h3>Tap To Escape Original Soundtrack</h3>
+            <div class="container"><a href="https://nicholasarandall.bandcamp.com/releases"><img class="portfolio_img" src="https://f4.bcbits.com/img/a0788135304_10.jpg" height=400 px;></a>
+            </div>
+            <p2>
+               Published January 2017, I made this soundtrack for my friend <a href="https://neilsardesai.com/">Neil's</a> game on the App Store. The soundtrack incorporates house, drum and bass, chiptune and more. Check out the game <a href="https://itunes.apple.com/app/id954154398">here.</a>
+            </p2>
+         </div>
+         <div class="portfolio_object">
+            <h3>My C++ Bank Account Project</h3>
+           <div class="container">
+             <a href="https://github.com/cidetraq/Bank-Account"><img class="portfolio_img" src="https://i.hizliresim.com/lWGQQk.png"></a>
+            <p2>I made this for COSC 1437 as the final class project. In it, there is a menu to select and use bank accounts.</p2>
+         </div>
+        </div>
+         <div class="portfolio_object">
+            <h3>My Blog</h3>
+            <div class="container">
+               <a href="https://hiruadjas.wordpress.com/"><img class="portfolio_img" src="https://i.hizliresim.com/3qJ4V5.png" height=400px;></a>
+            </div>
+            <p2>
+               On my blog I post the fiction that I write.
+            </p2>
+         </div>
+      </div>
+   </body>
+   <div class="bar">
+      <div id="Created_By">
+         <p3>Created by Nicholas Randall in HTML and CSS</p3>
+      </div>
+      <ul id="bottom_social_media_bar">
+         <li><a href="https://soundcloud.com/cidetraq"><img src="https://cdn2.iconfinder.com/data/icons/minimalism/512/soundcloud.png" height=50></a>
+         </li>
+         <li><a href="https://www.facebook.com/iamtherainda11"><img src="https://www.seeklogo.net/wp-content/uploads/2016/09/facebook-icon-preview-1-400x400.png" height=50></a>
+         </li>
+         <li><a href="https://twitter.com/nickARhuman"><img src="https://www.seeklogo.net/wp-content/uploads/2015/11/twitter-logo.png" height=50></a>
+        </li>
+         <li><a href="https://www.linkedin.com/in/nicholasrandall96/"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-512.png" height=50></a>
+      </ul>
+   </div>
+  
+ <script>
+$(document).ready(function(){
+    $("#bottom_social_media_bar").children().hover(function(){
+        
+      $(this).removeClass().addClass(
+"bounceIn animated").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+    $(this).removeClass();
+});
+        }, function(){}
+                                                  );
+
+   
+  });
+</script>
+</html>
