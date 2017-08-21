@@ -1,0 +1,11 @@
+
+server {
+listen 443;
+ssl on;
+ssl_certificate /etc/ssl/cert_chain.crt
+ssl_certificate_key /etc/ssl/nicholasarandall.key;
+
+
+server_name  nicholasarandall.me;
+
+}
